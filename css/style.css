@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+* { box-sizing: border-box;
+padding: 0;
+margin: 0;}
+
+
+header nav {display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;}
+
+  nav h1 strong {font-family: 'Coiny', cursive;}
+
+  ul li {font-family: 'Roboto', sans-serif; list-style: none;
+        padding: 0;
+        margin: 0;}
+
+header {font-family: 'Roboto', sans-serif;}
+
+button {font-family: 'Roboto', sans-serif;}
+
+header section div h2 {display:flex;
+justify-content: left;
+align-items: flex-start;}
+
+
+main div {display: flex;
+justify-content: space-between;}
+
+main section div h4 p {display: flex;
+flex-direction: column;}
+
+section .caja {width: 400px; height: fit-content;}
+
+
+
+
+
+button {background-color: black; color: white;}
+
+
+
+header section h2 {font-family: 'Roboto', sans-serif; font-size: 12px; background-color: #FCEE21; width: fit-content;}
+
+main section {font-family: 'Roboto', sans-serif;}
+
+main section h3 {background-color: #FCEE21; width: fit-content;}
+
+img {width: 35%;}
+
+footer nav {font-family: 'Roboto', sans-serif;
+display: flex; justify-content: space-between; align-items: center;}
